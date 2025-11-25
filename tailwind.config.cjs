@@ -30,5 +30,11 @@ module.exports = {
       },
     },
   },
+  extend: {
+  backgroundImage: {
+    'rooms-bg': "url('/src/assets/img/1 badroom dulaxe.png')",
+  },
+},
   plugins: [],
 };
+

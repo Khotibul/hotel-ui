@@ -1,4 +1,4 @@
-import { BookForm, HeroSlider, Rooms, ScrollToTop } from '../components';
+import { BookForm, Facilities, HeroSlider, Rooms, ScrollToTop} from '../components';
 
 
 const Home = () => {
@@ -17,7 +17,7 @@ const Home = () => {
 
       </div>
 
-      <Rooms />
+      <Rooms />  
     </div>
   );
 };

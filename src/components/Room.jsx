@@ -57,7 +57,7 @@ const Room = ({ room }) => {
         to={`/room/${id}`}
         className="btn btn-secondary btn-sm max-w-[240px] mx-auto duration-300"
       >
-        Book now from ${price}
+        Rp.{price}K/Night
       </Link>
 
     </div>

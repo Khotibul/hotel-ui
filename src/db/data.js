@@ -1,12 +1,13 @@
 import { FaWifi, FaCoffee, FaBath, FaParking, FaSwimmingPool, FaHotdog, FaStopwatch, FaCocktail } from 'react-icons/fa';
 import images from '../assets';
 
+
 export const roomData = [
   {
     id: 1,
-    name: 'Superior Room',
+    name: 'Deluxe One Bedroom',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+      'The perfect choice for professionals and business travelers. The Deluxe One Bedroom offers a blend of modern functionality and premium comfort. With a dedicated workspace and an elegant resting area, this room ensures your productivity and relaxation are perfectly balanced. Please note, the rate for this room type does not include breakfast.',
     facilities: [
       { name: 'Wifi', icon: FaWifi },
       { name: 'Coffee', icon: FaCoffee },
@@ -19,15 +20,15 @@ export const roomData = [
     ],
     size: 30,
     maxPerson: 1,
-    price: 115,
+    price: 650,
     image: images.Room1Img,
-    imageLg: images.Room1ImgLg,
+    imageLg: [images.Room1dulaxe, images.Room2dulaxe, images.Room3dulaxe, images.Room4dulaxe, images.Room5dulaxe, images.Room6dulaxe],
   },
   {
     id: 2,
-    name: 'Signature Room',
+    name: 'Deluxe 2 Bedroom ',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+      'Perfect for small families or business colleagues traveling together. Our Deluxe Two Bedroom unit offers the ideal balance of private space and a communal area. With two comfortable bedrooms and a separate, elegant living room, you have everything you need to relax, work, or socialize. Please note, the rate for this room type does not include breakfast.',
     facilities: [
       { name: 'Wifi', icon: FaWifi },
       { name: 'Coffee', icon: FaCoffee },
@@ -40,13 +41,13 @@ export const roomData = [
     ],
     size: 70,
     maxPerson: 2,
-    price: 220,
+    price: 950,
     image: images.Room2Img,
-    imageLg: images.Room2ImgLg,
+    imageLg: [images.Room2dulaxe1, images.Room2dulaxe2, images.Room2dulaxe3, images.Room2dulaxe4, images.Room2dulaxe5, images.Room2dulaxe6],
   },
   {
     id: 3,
-    name: 'Deluxe Room',
+    name: ' Deluxe 3 Bedroom',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
     facilities: [
@@ -61,13 +62,13 @@ export const roomData = [
     ],
     size: 50,
     maxPerson: 3,
-    price: 265,
+    price: 1250,
     image: images.Room3Img,
-    imageLg: images.Room3ImgLg,
+    imageLg: [images.Room3dulaxe1, images.Room3dulaxe2,images.Room3dulaxe3, images.Room3dulaxe4, images.Room3dulaxe5],
   },
   {
     id: 4,
-    name: 'Luxury Room',
+    name: 'Duplex Penthouse',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
     facilities: [
@@ -82,15 +83,15 @@ export const roomData = [
     ],
     size: 50,
     maxPerson: 4,
-    price: 289,
+    price: 1900,
     image: images.Room4Img,
-    imageLg: images.Room4ImgLg,
+    imageLg: [images.penthouse1, images.penthouse2, images.penthouse3,images.penthouse4],
   },
   {
     id: 5,
-    name: 'Luxury Suite Room',
+    name: 'Superior One Bedroom ',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+      'Designed for maximum comfort, our Superior One Bedroom is a smart choice for solo travelers and couples alike. Enjoy a well-appointed and efficient space where you can rest peacefully after a day of exploring Surabaya. Please note, the rate for this room type does not include breakfast.',
     facilities: [
       { name: 'Wifi', icon: FaWifi },
       { name: 'Coffee', icon: FaCoffee },
@@ -103,9 +104,9 @@ export const roomData = [
     ],
     size: 90,
     maxPerson: 5,
-    price: 320,
+    price: 650,
     image: images.Room5Img,
-    imageLg: images.Room5ImgLg,
+    imageLg: [images.superior1, images.superior2, images.superior3,images.superior4,images.superior5],
   },
   {
     id: 6,
@@ -127,47 +128,5 @@ export const roomData = [
     price: 344,
     image: images.Room6Img,
     imageLg: images.Room6ImgLg,
-  },
-  {
-    id: 7,
-    name: 'Luxury Room',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea ccusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
-    facilities: [
-      { name: 'Wifi', icon: FaWifi },
-      { name: 'Coffee', icon: FaCoffee },
-      { name: 'Bath', icon: FaBath },
-      { name: 'Parking Space', icon: FaParking },
-      { name: 'Swimming Pool', icon: FaSwimmingPool },
-      { name: 'Breakfast', icon: FaHotdog },
-      { name: 'GYM', icon: FaStopwatch },
-      { name: 'Drinks', icon: FaCocktail },
-    ],
-    size: 84,
-    maxPerson: 7,
-    price: 389,
-    image: images.Room7Img,
-    imageLg: images.Room7ImgLg,
-  },
-  {
-    id: 8,
-    name: 'Deluxe Room',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
-    facilities: [
-      { name: 'Wifi', icon: FaWifi },
-      { name: 'Coffee', icon: FaCoffee },
-      { name: 'Bath', icon: FaBath },
-      { name: 'Parking Space', icon: FaParking },
-      { name: 'Swimming Pool', icon: FaSwimmingPool },
-      { name: 'Breakfast', icon: FaHotdog },
-      { name: 'GYM', icon: FaStopwatch },
-      { name: 'Drinks', icon: FaCocktail },
-    ],
-    size: 48,
-    maxPerson: 8,
-    price: 499,
-    image: images.Room8Img,
-    imageLg: images.Room8ImgLg,
   },
 ];
