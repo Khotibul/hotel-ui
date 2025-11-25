@@ -56,8 +56,8 @@ import Slider3 from './img/heroSlider/3.jpg';
 import Slider4 from './img/heroSlider/4.jpg';
 import Slider5 from './img/heroSlider/5.jpg';
 
-export { ReactComponent as LogoDark } from './img/logo emas.svg';
-export { ReactComponent as LogoWhite } from './img/logo putih.svg';
+export { ReactComponent as LogoDark } from './img/logo-emas.svg';
+export { ReactComponent as LogoWhite } from './img/logo-putih.svg';
 
 const images = {
     Slider1,
